@@ -18,7 +18,7 @@ jobs:
       - name: Install Allure
         run: npm install allure-commandline -g
       - name: Execute allure command
-        run: allure -h
+        run: allure --help
       - name: Test
         run: npm test
       - name: Build
